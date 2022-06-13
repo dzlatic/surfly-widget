@@ -31,6 +31,9 @@ This version of the widget do not support:
 - This version of widget is also tested for video support inside Surfly, but you would have to allow use of camera and microphone in your browser.
 - Sometimes VPN and Surfly don't play nicely together and you may get 406 message! Prepare and test your demo in advance and avoid any surprises. For production issues, please work with your IT department and Surfly support. This custom widget component is not supported by Cisco!
 ---
+**Possible Surfly Defect - under investigation:** 
+- While running demo, do not keep Surfly admin session open, as it creates a conflict with your agent session and APIs do not report a proper session owneship, so the widget will not be finding an active session after you leave the widget and then come back.
+---
 
 ## How to deploy
 
@@ -39,7 +42,8 @@ This version of the widget do not support:
 Your organization must have an Enterprise account on Surfly.com. 
 
 ---
-**NOTE:** the build shared on the link below does use temporary Cisco evaluation Enterprise account keys. Usage is closely monitored for misuse! Please do not use it, unless you are part of Cisco, or you work for Cisco partner and you are advised by Cisco to try this component in the demo.
+**NOTE:** 
+The build shared on the link below does use temporary Cisco evaluation Enterprise account keys. Usage is closely monitored for misuse! Please do not use it, unless you are part of Cisco, or you work for Cisco partner and you are advised by Cisco to try this component in the demo.
 ---
 
 ### Desktop Layout Configuration 
