@@ -13,7 +13,7 @@ interface IProps {
 const App: FC<IProps> = (props) => {
 
   const componentVersion = "2.0";
-  const SURFLY_API_KEY = "<YOUR_ORG_SYRFLY_REST_API_KEY>";
+  const SURFLY_API_KEY = "<YOUR_ORG_SURFLY_REST_API_KEY>";
   const SURFLY_HOME = "surfly.com/v2"
 
   const [mounted, setMounted] = useState(false);
