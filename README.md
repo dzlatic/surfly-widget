@@ -26,7 +26,6 @@ This version of the widget do not support:
 - Rich Customer History, neither Journey Data Services integration
 - Handling of standalone Surfly queue
 ---
----
 **Important notes:** 
 - This version of widget is also tested for video support inside Surfly, but you would have to allow use of camera and microphone in your browser.
 - Sometimes VPN and Surfly don't play nicely together and you may get 406 message! Prepare and test your demo in advance and avoid any surprises. For production issues, please work with your IT department and Surfly support. This custom widget component is not supported by Cisco!
