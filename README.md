@@ -42,7 +42,7 @@ Your organization must have an Enterprise account on Surfly.com.
 
 ---
 **NOTE:** 
-The build shared on the link below does use temporary Cisco evaluation Enterprise account keys. Usage is closely monitored for misuse! Please do not use it, unless you are part of Cisco, or you work for Cisco partner and you are advised by Cisco to try this component in the demo.
+- The build shared on the link below does use temporary Cisco evaluation Enterprise account keys. Usage is closely monitored for misuse! Please do not use it, unless you are part of Cisco, or you work for Cisco partner and you are advised by Cisco to try this component in the demo.
 ---
 
 ### Desktop Layout Configuration 
