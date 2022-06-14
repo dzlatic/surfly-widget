@@ -47,7 +47,7 @@ Your organization must have an Enterprise account on Surfly.com.
 
 ### Desktop Layout Configuration 
 
-You can copy the code below into your desktop layout, into "navigation" section:
+You can copy the code below into your WxCC desktop layout, into "navigation" section:
 
 ```
 {
@@ -89,11 +89,11 @@ Best way to start would be to review documentation: https://developer.webex-cx.c
 
 1. The very first step would be to clone this repository: https://github.com/CiscoDevNet/webex-contact-center-widget-starter .
 
-2. Replace all files in started widget repository with those provided in this repository and rename the root directory to “surfly-widget”.
+2. Replace all files in starter widget repository with those provided in this repository and rename the root directory to “surfly-widget”.
 
 3. Enter your Surfly REST API code into the [App.tsx](react/src/direflow-component/App.tsx) file.
 
-4. Follow instructions from starter widget README file to build the component.
+4. Follow instructions from starter widget README file to build the react component.
 
 5. Once build, the component should be deployed on public URL, and configured in desktop layout, per example above.
 
