@@ -21,7 +21,7 @@ The co-browse session starts. If needed, the agent can move away from co-brose s
 
 ---
 **Not in this version:** 
-This version of the widget do not support:
+This version of the widget does not support:
 - WxCC Reporting
 - [Rich Customer History](https://github.com/dzlatic/rich-customer-history), neither [Customer Journey Data Services](https://cjaas.cisco.com/home#/home) integration
 - Handling of standalone Surfly queue
