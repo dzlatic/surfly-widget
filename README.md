@@ -40,6 +40,41 @@ This version of the widget does not support:
 
 Your organization must have an Enterprise account on Surfly.com. 
 
+### Surfly Entry Point
+
+You can simply use [this page](https://flyhighbookings.weebly.com/about.html) or put following javascript code into your own web page where would you like to create a surfly entry point for co-browse:
+
+```
+<script>
+(function(s,u,r,f,l,y){s[f]=s[f]||{init:function(){s[f].q=arguments}};
+l=u.createElement(r);y=u.getElementsByTagName(r)[0];l.async=1;
+l.src='https://surfly.com/surfly.js';y.parentNode.insertBefore(l,y);})
+(window,document,'script','Surfly');
+
+var settings = {
+// Surfly session options can be set here, or at the Company/Plan levels.
+widget_key: 'GET_THIS_VALUE_FROM_SUPPORT_CONTACT_BELOW',
+private_session: true, // to make sure only logged in agents can join the call
+require_password: false,
+};
+
+Surfly.init(settings, function(initResult) {
+    if (initResult.success) {
+        // API calls can now be made!
+        if (!Surfly.isInsideSession) {
+            Surfly.button();
+        }
+    }
+    else{
+        console.log("Surfly was unable to initialize properly.")
+    }
+});
+</script>
+```
+
+---
+**NOTE:** 
+- Pay attantion you would need to replace the value of widget_key!
 ---
 **NOTE:** 
 - The build shared on the link below does use temporary Cisco evaluation Enterprise account keys. Usage is closely monitored for misuse! Please do not use it, unless you are part of Cisco, or you work for Cisco partner and you are advised by Cisco to try this component in the demo.
