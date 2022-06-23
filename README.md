@@ -144,4 +144,4 @@ Best way to start would be to review documentation: https://developer.webex-cx.c
 
 ## How To Report Errors and Propose Improvements
 
-Please contact Darko Zlatic (dzlatic@cisco.com) & Gregoire Dufournet(grdufour@cisco.com).
+Please contact Darko Zlatic (dzlatic@cisco.com) & Alan Quinn (alquinn@cisco.com).
