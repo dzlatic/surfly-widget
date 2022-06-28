@@ -88,7 +88,7 @@ You can copy the code below into your WxCC desktop layout, into "navigation" sec
 {
       "nav" : {
         "label" : "Surfly",
-        "icon" : "https://www.surfly.com/wp-content/uploads/2022/02/favicon_Surfly_big.png",
+        "icon" : "https://www.surfly.com/wp-content/uploads/2022/06/Favicon-PNG.png",
         "iconType" : "other",
         "navigateTo" : "cobrowse",
         "align" : "top"
